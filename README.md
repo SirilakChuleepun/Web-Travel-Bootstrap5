@@ -1,1 +1,47 @@
 # Web-Travel-Bootstrap5
+- git branch
+- git add .
+- git commit -m "Edit full file structure"
+- git add .
+- git commit -m "Add meta and link bootstrap5"
+- git add .
+- git commit -m "Add nav , search box" 
+- git add . 
+- git commit -m "Add section main in homepage"
+- git add .
+- git commit -m "Add footer in homepage"
+- git add . 
+- git commit -m "Add script in homepage"
+- git add . 
+- git commit -m "delete header"
+- git checkout -b feature/about-page
+- git add . 
+- git commit -m "create aboutpage and  branch aboutpage"
+- git add . 
+- git commit -m "add nav and main in aboutpage" 
+- git add . 
+- git commit -m "add footer in aboutpage" 
+- git add . 
+- git commit -m "add script in aboutpage"
+- git add . 
+- git checkout -b feature/contact-page
+- git add .
+- git commit -m "create branch contact page and create contactpage"
+- git add .
+- git commit -m "add form contact"
+- git add . 
+- git commit -m "add script in contactpage"
+- git add . 
+- git commit -m "edit href in nav bar"
+- git add .
+- git checkout main 
+- git merge feature/about-page
+- git merge feature/contact-page
+- git add .
+- git commit -m "add logo"
+- git add .
+- git commit -m "edit logo"
+- git add . 
+- git commit -m "edit footer in homepage"
+- git add . 
+- git commit -m "add readme file and screenshot.pdf"

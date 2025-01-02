@@ -41,45 +41,39 @@
           </nav>
 
         <main>
-            <section id="home" class="hero">
-                <img src="images/chonburi-view.jpg" alt="วิวทิวทัศน์ของจังหวัดชลบุรี">
-            </section>
-    
-            <section id="highlights">
-                <div class="container">
-                    <h2>ไฮไลท์</h2>
-    
-                    <article>
-                        <img src="images/koh-larn.jpg" alt="ชายหาดสวยงามบนเกาะล้าน">
-                        <h3>เกาะล้าน</h3>
-                        <p>น้ำทะเลใสและหาดทรายขาวรอคุณอยู่บนเกาะที่งดงามแห่งนี้</p>
-                    </article>
-    
-                    <article>
-                        <img src="images/bangsaen-beach.jpg" alt="หาดบางแสนยามพระอาทิตย์ตก"> 
-                        <h3>หาดบางแสน</h3>
-                        <p>ชายหาดยอดนิยมเหมาะสำหรับพักผ่อนและลิ้มลองอาหารทะเลสดใหม่</p>
-                    </article>
-    
-                    <article>
-                        <img src="images/nong-nooch.jpg" alt="สวนสวยที่สวนนงนุช"> 
-                        <h3>สวนนงนุช</h3>
-                        <p>สำรวจธรรมชาติที่งดงามและการแสดงวัฒนธรรมที่สวนนงนุช</p>
-                    </article>
-    
-                    <article>
-                        <img src="images/sanctuary-of-truth.jpg" alt="สถาปัตยกรรมไม้ที่ปราสาทสัจธรรม"> 
-                        <h3>ปราสาทสัจธรรม</h3>
-                        <p>ชื่นชมความงดงามของศิลปะและปรัชญาไทยผ่านงานไม้ที่ยิ่งใหญ่</p>
-                    </article>
-    
-                    <article>
-                        <img src="images/khao-kheow.jpg" alt="สัตว์ในสวนสัตว์เปิดเขาเขียว"> 
-                        <h3>สวนสัตว์เปิดเขาเขียว</h3>
-                        <p>สัมผัสสัตว์ป่าอย่างใกล้ชิดในบรรยากาศธรรมชาติ</p>
-                    </article>
+            <section class="container-fluid p-0">
+                <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/hero1.jpg" class="d-block w-100" alt="beach">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1>ยินดีต้อนรับสู่ชลบุรี</h1>
+                        <p>สัมผัสธรรมชาติและทะเลที่สวยงาม</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/hero2.jpg" class="d-block w-100" alt="mountain">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1>เขาสามมุข</h1>
+                        <p>สถานที่ชมวิวและไหว้พระ</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/hero3.jpg" class="d-block w-100" alt="temple">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1>วัดหลวงพ่อโสธร</h1>
+                        <p>ศักดิ์สิทธิ์และเป็นที่เคารพบูชา</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
                 </div>
-            </section>
+              </section>
         </main>
 
         <footer>
